@@ -1,0 +1,10 @@
+Aspek,Rencana akuisisi
+Kamera,Kamera telepon genggam; fokus pada satu daun di nampan.
+Jarak dan resolusi,"Untuk lebar kerja 640 px, jarak sekitar 229 mm atau lebih dekat agar bercak 5 mm tetap minimal 10 px; bila jarak 300 mm, pertahankan lebar sekitar 840 px atau lebih."
+Sudut,Kamera tegak lurus terhadap bidang daun; hindari perspektif miring.
+Alas dan skala,Gunakan nampan/alas matte yang kontras dan sertakan acuan ukuran di luar area daun.
+Pencahayaan,"Wakili normal, gelap, terang, kontras rendah/kabut atau debu, dan bayangan sebagian."
+Jumlah dan kelas,"Target awal 20 citra untuk tiap kelas: sehat, bercak ringan, dan bercak berat."
+Penamaan,"Gunakan nama konsisten, misalnya teh_001.png, dengan label kelas dan kondisi tersimpan di CSV."
+Izin dan privasi,Minta izin sebelum mengambil atau membagikan foto; jangan merekam wajah/identitas petani.
+Metadata EXIF,Hapus metadata GPS dan periksa ulang sebelum foto dibagikan ke repository publik.

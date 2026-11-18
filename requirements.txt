@@ -1,0 +1,8 @@
+# Instal bila pustaka belum tersedia pada lingkungan lokal.
+opencv-python>=4.8.0
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+scikit-image>=0.22.0
+pillow>=10.0.0
+jupyter>=1.0.0

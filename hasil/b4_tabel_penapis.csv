@@ -1,0 +1,36 @@
+Derau,Penapis,PSNR (dB),Waktu (ms),KB
+Gaussian 10,Tanpa,28.106,0.0,4.604
+Gaussian 10,Rerata 3,36.809,0.122,7.691
+Gaussian 10,Rerata 5,37.376,0.149,7.771
+Gaussian 10,Gaussian 5,37.601,0.259,7.894
+Gaussian 10,Median 3,35.498,0.079,7.601
+Gaussian 10,Median 5,38.318,0.616,8.757
+Gaussian 10,Median 9,38.443,13.34,9.752
+Gaussian 20,Tanpa,22.11,0.0,2.572
+Gaussian 20,Rerata 3,31.405,0.143,5.873
+Gaussian 20,Rerata 5,34.348,0.18,6.86
+Gaussian 20,Gaussian 5,32.529,0.224,6.298
+Gaussian 20,Median 3,29.721,0.095,5.278
+Gaussian 20,Median 5,33.405,0.659,6.846
+Gaussian 20,Median 9,35.469,12.839,7.807
+Gaussian 40,Tanpa,16.473,0.0,1.331
+Gaussian 40,Rerata 3,25.905,0.117,3.711
+Gaussian 40,Rerata 5,29.766,0.142,5.212
+Gaussian 40,Gaussian 5,27.111,0.243,4.162
+Gaussian 40,Median 3,23.822,0.078,3.1
+Gaussian 40,Median 5,27.82,0.573,4.549
+Gaussian 40,Median 9,31.29,13.396,5.775
+Garam-merica 4%,Tanpa,19.182,0.0,1.946
+Garam-merica 4%,Rerata 3,28.332,0.118,4.903
+Garam-merica 4%,Rerata 5,31.573,0.145,6.351
+Garam-merica 4%,Gaussian 5,29.468,0.249,5.444
+Garam-merica 4%,Median 3,48.474,0.081,9.194
+Garam-merica 4%,Median 5,44.621,0.576,9.332
+Garam-merica 4%,Median 9,40.747,13.157,10.229
+Garam-merica 10%,Tanpa,15.152,0.0,1.156
+Garam-merica 10%,Rerata 3,24.053,0.115,3.22
+Garam-merica 10%,Rerata 5,27.252,0.14,4.693
+Garam-merica 10%,Gaussian 5,25.103,0.203,3.658
+Garam-merica 10%,Median 3,43.428,0.081,8.822
+Garam-merica 10%,Median 5,43.744,0.578,9.177
+Garam-merica 10%,Median 9,40.225,13.227,9.905

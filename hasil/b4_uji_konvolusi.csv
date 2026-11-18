@@ -1,0 +1,3 @@
+Kernel,Selisih korelasi manual vs filter2D,Selisih konvolusi sejati vs filter2D,Waktu manual (s),Waktu filter2D (s)
+Rerata simetris,0,0,0.0072209910000538,0.027356751000013446
+Asimetris,0,255,0.001797510000017155,0.00034842999997408697

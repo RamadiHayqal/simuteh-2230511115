@@ -1,0 +1,7 @@
+Aspek,Risiko pada SIMUTEH,Mitigasi awal
+Privasi citra,Foto dapat memuat wajah atau lokasi petani.,Arahkan kamera hanya ke daun; hapus metadata EXIF/GPS sebelum berbagi.
+Bias dan keadilan,Perbedaan cahaya atau perangkat dapat membuat hasil tidak konsisten.,Uji seluruh kondisi cahaya dan dokumentasikan keterbatasan dataset sintetis.
+Transparansi,Pengguna dapat menganggap hasil sistem sebagai diagnosis pasti.,"Tampilkan kelas, persentase bercak, dasar pengukuran, dan keterbatasan."
+Keamanan data,Foto atau hasil dapat diakses pihak yang tidak berwenang.,"Batasi hak akses, simpan berkas di lokasi terkontrol, dan hindari data identitas."
+Dampak sosial,Sistem dianggap menggantikan keputusan petugas sortir.,Posisikan SIMUTEH sebagai alat bantu; keputusan akhir tetap pada petugas.
+Keterlacakan,Parameter dan hasil sulit ditelusuri bila tidak dicatat.,"Simpan versi kode, SEED, parameter, serta hasil pengujian."

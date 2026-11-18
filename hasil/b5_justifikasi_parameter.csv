@@ -1,0 +1,6 @@
+Langkah,Parameter final,Alasan dan bukti,Risiko bila salah atur
+Ubah ukuran,lebar=640 px,Menjaga ukuran kerja sesuai kebutuhan pemrosesan; rujuk hasil akuisisi B2.,Resize terlalu kecil dapat menghilangkan bercak kecil.
+Koreksi gamma,gamma=1.0,Nilai 1.0 berarti tidak mengubah intensitas; aktifkan hanya bila diagnosis B3 mendukung.,Gamma yang salah dapat membuat citra terlalu gelap/terang.
+CLAHE kanal V,"clip=2.0, tile=8",Mengubah kontras kanal kecerahan; periksa KB dan tampilan di B3.,Penguatan berlebih dapat memperjelas derau atau memunculkan bercak palsu.
+Redam derau,rerata / kernel 5,"Titik awal dari perbandingan PSNR, waktu, dan KB di B4.",Kernel besar dapat menghapus detail bercak kecil.
+Tajamkan,tajam_k=0.0,Nilai 0 berarti penajaman tidak diterapkan; aktifkan bila bukti mendukung.,Penajaman berlebih dapat memperkuat derau dan tepi palsu.

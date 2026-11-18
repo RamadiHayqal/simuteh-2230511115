@@ -1,0 +1,9 @@
+Kondisi,Kelas,Citra,Metode,KB sebelum,KB sesudah
+gelap,berat,teh_042.png,Gamma 0.6,3.6,3.05
+gelap,ringan,teh_022.png,Gamma 0.6,5.12,4.17
+terang,berat,teh_043.png,Gamma 1.8,3.02,3.28
+terang,ringan,teh_023.png,Gamma 1.8,1.55,1.7
+kontras_rendah,berat,teh_044.png,Regang persentil 2–98,2.87,3.02
+kontras_rendah,ringan,teh_024.png,Regang persentil 2–98,1.96,2.11
+bayangan,berat,teh_045.png,CLAHE 2.0/8x8,1.93,1.61
+bayangan,ringan,teh_025.png,CLAHE 2.0/8x8,0.45,0.94

@@ -1,0 +1,12 @@
+Besaran,Hasil
+"Bayangan bercak pada sensor, Z=300 mm",0.06667 mm
+"Diameter bercak pada sensor, Z=300 mm",47.62 piksel
+"Diameter bercak pada sensor, Z=600 mm",23.81 piksel
+Jarak maksimum pada resolusi asli (min. 10 px),1428.57 mm
+"Diameter setelah resize lebar 640 px, Z=300 mm",7.62 piksel
+Jarak maksimum setelah resize lebar 640 px,228.57 mm
+Lebar kerja minimum pada Z=300 mm,840 piksel
+Memori satu foto asli,"36,000,000 byte"
+Memori citra 640x480 warna,"921,600 byte"
+Memori citra 640x480 grayscale,"307,200 byte"
+Memori 300 foto asli,"10,800,000,000 byte (10.80 GB desimal)"

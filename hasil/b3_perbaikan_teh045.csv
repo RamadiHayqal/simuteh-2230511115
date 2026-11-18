@@ -1,0 +1,10 @@
+Metode,KB,Simpangan baku,Min,Maks
+Asli,1.93,56.48,18,249
+Negatif,1.93,56.48,6,237
+Cerah +50,1.93,54.28,68,255
+Kontras alpha=1.5 beta=-40,1.93,78.88,0,255
+Regang persentil 2–98,2.05,80.88,0,255
+Gamma 0.5,1.64,40.53,67,251
+Gamma 1.8,2.51,61.24,2,244
+Ekualisasi global,1.48,73.48,0,255
+CLAHE 2.0 / 8x8,1.61,46.48,10,251
