@@ -57,3 +57,38 @@ simuteh-2230511115/
 ## Pemeriksaan paket
 
 Kelima notebook telah dijalankan berurutan dalam kernel Python lokal dengan dataset 60 citra hasil generator SEED 1115; B1, B2, B3, B4, dan B5 selesai tanpa exception. Fungsi korelasi manual pada B4 memakai `sliding_window_view` agar pengujian citra 640 × 480 tidak bergantung pada loop Python yang sangat lambat. Uji lokal ini bukan pengganti pengujian akhir di akun Google Colab Anda.
+
+---
+
+# Pembaruan P5-P6 (UTS): Deteksi Tepi, Morfologi, dan Analisis Bercak
+
+Tag: `v0.2-tepi` (P5) dan `v0.3-morfologi` (P6). Praproses yang dipakai: milik sendiri (`src/praproses.py`, `hasil/param_praproses.json`).
+
+## Berkas baru
+- `notebook/P5_tepi.ipynb` : Bagian 1 dan 2 (gradien, Sobel/Prewitt/LoG/Canny, ambang, keputusan tepi)
+- `notebook/P6_morfologi.ipynb` : Bagian 3, 4, 5 (morfologi, komponen terhubung, evaluasi bercak.py)
+- `src/utils_tepi.py` : kode awal (Lampiran A petunjuk)
+- `src/bercak.py` : modul analisis bercak (TODO 1-7 sudah dilengkapi)
+- `hasil/param_bercak.json` dan `hasil/p5_*`, `hasil/p6_*` : parameter, tabel CSV, dan gambar hasil
+
+## Cara menjalankan di Google Colab
+1. Salin `notebook/P5_tepi.ipynb`, `notebook/P6_morfologi.ipynb`, `src/utils_tepi.py`, dan `src/bercak.py` ke folder repository di `Drive Saya/Colab Notebooks/simuteh-2230511115/` (pada subfolder yang sama).
+2. Buka notebook dengan Google Colab, jalankan **Runtime > Restart session**, lalu **Run all**. Izinkan akses Google Drive saat diminta.
+3. Hasil tersimpan di folder `hasil/`.
+
+## Cara memakai analisis_daun
+```python
+import sys; sys.path.append("src")
+from praproses import praproses
+from bercak import analisis_daun
+import cv2, json
+img = cv2.imread("data/sintetis/citra/teh_041.png")
+pra = praproses(img, json.load(open("hasil/param_praproses.json")))
+h = analisis_daun(pra, json.load(open("hasil/param_bercak.json")))
+print(h["jumlah_bercak"], h["persen_bercak"], h["kelas"])
+```
+
+## Ringkasan hasil (60 citra, SEED 1115)
+- F1 tepi tertinggi: Canny kanal R sesudah praproses (0,980).
+- Parameter final bercak.py: k = 4,0; SE elips; opening 3; closing 3; luas_min 20.
+- Galat absolut rerata persen bercak 0,354; korelasi 0,976; akurasi kelas 0,950 (57 dari 60).
