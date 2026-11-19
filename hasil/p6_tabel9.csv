@@ -1,0 +1,12 @@
+,,IoU,IoU,galat_jumlah,galat_jumlah,galat_jumlah
+kelas,,berat,ringan,berat,ringan,sehat
+bentuk,ukuran,,,,,
+persegi,3,0.69,0.3,4.35,4.3,5.1
+persegi,5,0.76,0.53,1.55,2.6,2.2
+persegi,7,0.79,0.7,0.35,0.2,0.65
+elips,3,0.68,0.28,5.5,8.5,10.5
+elips,5,0.73,0.42,3.25,2.95,2.5
+elips,7,0.78,0.63,1.2,1.2,1.6
+silang,3,0.68,0.28,5.5,8.5,10.5
+silang,5,0.73,0.43,5.0,4.1,4.05
+silang,7,0.77,0.58,1.6,2.7,2.65
